@@ -1,0 +1,27 @@
+{
+  "name": "laddersolver",
+  "version": "0.0.0",
+  "description": "ladder solver",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "pat",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "python-struct": "^1.0.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "mocha-clean": "^1.0.0",
+    "sinon": "^2.1.0"
+  },
+  "jshintconfig": {
+    "node": true,
+    "mocha": true
+  }
+}
